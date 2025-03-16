@@ -1,0 +1,20 @@
+Command,Type,Message,Buttons
+Start,text,"👋 Welcome to **R6KSY Shop**! Your trusted shop for premium services.
+
+🔹 To access the shop, you must join our Telegram channel:
+👉 [Squeezings](https://t.me/squeezings)
+
+Once you've joined, click **'✅ I Have Joined'** below.","[[""✅ I Have Joined"", ""Check Membership""], [""📢 Join @Squeezings"", ""https://t.me/squeezings""]]"
+Check Membership,check_membership,@squeezings,"{""success"": {""message"": ""✅ Membership Verified! Welcome to R6KSY Shop. Select an option below:"", ""next_block"": ""Main Menu""}, ""failure"": {""message"": ""❌ You haven't joined the channel yet! 👉 Please join @Squeezings and try again."", ""next_block"": ""Start""}}"
+Main Menu,text,✅ Membership Verified! Welcome to **R6KSY Shop**. Select an option below:,"[[""🛒 View Services"", ""Services""], [""📦 My Orders"", ""Order Tracking""], [""💳 Payment Options"", ""Payment""], [""👤 Contact Support"", ""Support""]]"
+Services,text,🛒 Select a service below:,"[[""🔹 Instagram Aged Account"", ""Buy Instagram Aged""], [""🔹 Custom Bot Making"", ""Buy Custom Bot""], [""🔹 GFX Design"", ""Buy GFX""], [""🔹 Instagram Banning Methods"", ""Buy Banning Methods""], [""🔙 Back to Menu"", ""Main Menu""]]"
+Payment,text,💳 Choose a payment method:,"[[""💳 PayPal"", ""https://paypal.me/yourlink""], [""💰 Crypto Payment"", ""Crypto Payment""], [""🏦 Bank Transfer"", ""Bank Transfer""], [""📦 Track My Order"", ""Order Tracking""], [""🔙 Back to Menu"", ""Main Menu""]]"
+Crypto Payment,text,"💰 Crypto Payment Options:
+
+🔹 **Bitcoin (BTC):** `your_btc_wallet`
+🔹 **Ethereum (ETH):** `your_eth_wallet`
+🔹 **USDT (TRC20):** `your_usdt_wallet`
+
+Send the payment and click **'✅ I Have Paid'** to confirm.","[[""✅ I Have Paid"", ""Confirm Payment""], [""🔙 Back to Payment"", ""Payment""]]"
+Order Tracking,text,📦 Enter your order ID to track your order status.,"[[""🔙 Back to Menu"", ""Main Menu""]]"
+Admin Panel,text,🔒 Admin Panel (Admin Only),"[[""📋 View Orders"", ""View Orders""], [""✅ Confirm Order"", ""Confirm Order""], [""💰 Sales Report"", ""Sales""], [""🔙 Back to Menu"", ""Main Menu""]]"
